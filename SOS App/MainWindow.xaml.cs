@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -34,18 +35,6 @@ namespace SOS_App
         }
 
         GameCore _theGame = new GameCore();
-
         
-        /*private void initialSetup()
-        {
-            _theGame.initialSetup();
-        }*/
-        /*private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            //Main = this;
-            
-            
-            //AnyClassOrWindow.ShowValue();
-        }*/
     }
 }

@@ -10,7 +10,7 @@ using System.Windows;
 
 namespace SOS_App
 {
-    internal class GameCore 
+    internal class GameCore
     {
         
 
@@ -19,11 +19,11 @@ namespace SOS_App
         {
             //initialization of basic controls
             //MessageBox.Show((string)Main.currentTurnPlayerLabel.Content);
-            currentTurnPlayerLabel.Content = "Blue";
+            /*currentTurnPlayerLabel.Content = "Blue";
             boardSizePicker.SelectedIndex = 0;
             bluePlayerHuman.IsChecked = true;
             redPlayerHuman.IsChecked = true;
-            gameTypeSimple.IsChecked = true;
+            gameTypeSimple.IsChecked = true;*/
         }
        
     }
