@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,6 +24,13 @@ namespace SOS_App
         public MainWindow()
         {
             InitializeComponent();
-        }
+
+            //initialization of basic controls
+            currentTurnPlayerLabel.Content = "Blue";
+            gameTypeSimple.IsChecked = true;
+            bluePlayerHuman.IsChecked = true;
+            redPlayerHuman.IsChecked = true;
+        }      
+        
     }
 }
