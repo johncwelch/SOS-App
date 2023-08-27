@@ -21,16 +21,31 @@ namespace SOS_App
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        //internal static MainWindow? Main;
         public MainWindow()
         {
             InitializeComponent();
-
-            //initialization of basic controls
             currentTurnPlayerLabel.Content = "Blue";
-            gameTypeSimple.IsChecked = true;
+            boardSizePicker.SelectedIndex = 0;
             bluePlayerHuman.IsChecked = true;
             redPlayerHuman.IsChecked = true;
-        }      
+            gameTypeSimple.IsChecked = true;
+        }
+
+        GameCore _theGame = new GameCore();
+
         
+        /*private void initialSetup()
+        {
+            _theGame.initialSetup();
+        }*/
+        /*private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            //Main = this;
+            
+            
+            //AnyClassOrWindow.ShowValue();
+        }*/
     }
 }
